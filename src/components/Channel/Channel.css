@@ -1,0 +1,179 @@
+.logout_channel{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    color: white;
+    text-decoration: none;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.logo_channel{
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+.logout_text{
+    text-decoration: none;
+    color: white;
+}
+
+.searchIcon_channel{
+    color: black;
+    position: relative;
+    transform: scale(1.5,1.5);
+    left: 40px;
+    top: 2px;
+  }
+.searchVideos_channel{
+    outline: 2px solid rgb(255,255,255,0.2);
+    transition: 0.3s;
+    outline-offset: 15px;
+    width: 670px;
+    min-height: 55px;
+    border-radius: 45px;
+    border: transparent;
+    font-size: 18px;
+    padding-left: 60px;
+}
+.searchVideos_channel:focus{
+    outline-offset: 0px;
+    transition: 0.3s;
+}
+
+.pageCenter_channel{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.Channel{
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+    min-height: 100vh;
+}
+.channelBannerInfo{
+    width: 100%;
+    border-radius: 45px;
+    margin-top: 80px;
+}
+.channelBanner{
+    width: 100%;
+    height: 350px;
+    border-radius: 25px;
+}
+.channelProfileImg{
+    border-radius: 50%;
+}
+.channelTitle{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: -35px;
+    left: 25px;
+}
+.channelName{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 22px;
+    max-width: 300px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.channelNameText{
+    font-weight: bold;
+    font-size: 18px;
+}
+.channelNameSubs{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.footer_channel{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    left: 0px;
+    bottom: -250px;
+    padding: 10px 0;
+    width: 100%;
+    height: 40px;
+    margin-top: 60px;
+    background-color: #01001F;
+    color: #B4B4B4;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.docsFooter_channel{
+    margin-right: 20px;
+    width: 250px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright_channel{
+    margin-left: 20px;
+    width: 370px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.channelVideosList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.channelVideo{
+    width: 300px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.videoDetails_channel{
+    font-weight: 500;
+    transition:  0.3s;
+}
+.videoDesc_channel{
+    font-weight: 200;
+}
+.videoLength_channel{
+    position: relative;
+    top: 186px;
+    left: 5px;
+    background-color: black;
+    border-radius:15px;
+    padding: 5px;
+    font-weight: 500;
+    width: 60px;
+    text-align: center;
+}
+.channelVideo:hover > .videoThumbnail_channel{
+    transform: scale(1.1);
+    transition:  0.3s;
+}
+.channelVideo:hover > .videoDetails_channel{
+    margin-top: 10px;
+    transition:  0.3s;
+}
+.videoThumbnail_channel{
+    transition:  0.3s;
+}
+.videoThumbnailImage_channel{
+    border-radius: 18px;
+    height: 200px;
+    width: 300px;
+    transition:  0.3s;
+}

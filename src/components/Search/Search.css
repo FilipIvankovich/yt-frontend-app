@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+.bgImage_search{
+    z-index: -3;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.logout_search{
+  color: white;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.pageCenter{
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.siteTitle_search{
+  color: white;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  top: 40%;
+  width: 972px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.siteTitle_search_up{
+  color: white;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  top: 15%;
+  width: 972px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s;
+}
+.title_search{
+  font-size: 55px;
+  width: 972px;
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.titleDesc_search{
+  width: 972px;
+  margin-bottom: -20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.logo_search{
+  position: absolute;
+  top: 50px;
+  padding: 0 100px;
+}
+.searchIcon_search{
+  color: black;
+  position: relative;
+  transform: scale(1.5,1.5);
+  left: 40px;
+  top: 2px;
+}
+.searchVideos_search{
+  outline: 2px solid rgb(255,255,255,0.2);
+  outline-offset: 15px;
+  width: 600px;
+  height: 55px;
+  border-radius: 45px;
+  border: transparent;
+  font-size: 20px;
+  padding-left: 55px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.searchVideos_search:focus{
+  outline-offset: 0px;
+  transition: 0.3s;
+}
+::placeholder{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.homeVideosList{
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.homeVideosList_change{
+  overflow-y: scroll;
+  margin-top: 150px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.homeVideosList_change::-webkit-scrollbar {
+  width: 10px;
+  margin-top: 10px;
+}
+.homeVideosList_change::-webkit-scrollbar-track {
+  border-radius: 20px;
+} 
+.homeVideosList_change::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 20px;
+}
+.homeVideosList_change::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4); 
+}
+
+.homeVideo{
+  text-decoration: none;
+  min-height: 300px;
+  width: 270px;
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.homeVideo:hover > .videoThumbnail{
+  transform: scale(1.1);
+  transition:  0.3s;
+}
+.homeVideo:hover > .videoDetails_home{
+  margin-top: -20px;
+  transition:  0.3s;
+}
+.homeVideo:hover > .videoLength_home{
+  top: -40px;
+  left: -4px;
+  transition: 0.3s;
+}
+
+.videoThumbnail{
+  border-radius: 18px;
+  width: 280px;
+  height: 160px;
+  transition:  0.3s;
+}
+.videoThumbnailImage{
+  border-radius: 18px;
+  height: 174px;
+  width: 250px;
+  transition:  0.3s;
+}
+
+.videoDetails_home{
+  margin-top: -30px;
+  transition:  0.3s;
+}
+.videoDesc_home{
+  font-weight: 100;
+}
+.channelTitle_home{
+  font-weight: 1000;
+}
+.videoTitle_home{
+  font-weight: 500;
+}
+.videoLength_home{
+  position: relative;
+  top: -50px;
+  left: 8px;
+  background-color: black;
+  border-radius:15px;
+  padding: 5px;
+  font-weight: 100;
+  width: 60px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.loadMoreButton{
+  background-color: white;
+  width: 230px;
+  height: 50px;
+  border-radius: 45px;
+  border-color: transparent;
+  outline: 2px solid rgb(255,255,255,0.2);
+  outline-offset: 10px;
+  margin-left: 40%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  transition: 0.3s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.loadMoreButton:hover{
+  background-color: rgb(237,237,237);
+  outline-offset: 0px;
+  cursor:pointer;
+  transition: 0.3s;
+}
+
+.videosOrganized{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 1020px;
+}
+
+.footer_search{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  left: 0px;
+  padding: 10px 0px;
+  bottom: -58px;
+  width: 100%;
+  height: 40px;
+  background-color: #01001F;
+  color: #B4B4B4;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.docsFooter_search{
+  padding: 0 10px;
+  width: 250px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 100px;
+  padding-top: 50px;
+  color: white;
+}
+
