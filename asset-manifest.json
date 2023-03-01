@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/yt-frontend-app/static/css/main.c9fdcd90.css",
+    "main.js": "/yt-frontend-app/static/js/main.d34d25d4.js",
+    "static/media/searchBackground.png": "/yt-frontend-app/static/media/searchBackground.29c8084f949783f6cf39.png",
+    "static/media/login-background.png": "/yt-frontend-app/static/media/login-background.db90719c7c2c4c1757c4.png",
+    "static/media/channelBanner.jpg": "/yt-frontend-app/static/media/channelBanner.5defc57d125712d3dcfa.jpg",
+    "static/media/loginTopBlob.png": "/yt-frontend-app/static/media/loginTopBlob.e53b406883853b97ea69.png",
+    "static/media/loginBmBlob.png": "/yt-frontend-app/static/media/loginBmBlob.7a577b2b319de236ad36.png",
+    "static/media/ice.jpg": "/yt-frontend-app/static/media/ice.303a8bec6adc7be2b646.jpg",
+    "static/media/loginBrBlob.png": "/yt-frontend-app/static/media/loginBrBlob.468abd87bad579ab517e.png",
+    "static/media/idk.jpg": "/yt-frontend-app/static/media/idk.33b9213d4bf9d7f65a56.jpg",
+    "static/media/lion.jpg": "/yt-frontend-app/static/media/lion.68e20b819d388faba758.jpg",
+    "static/media/dolls.jpg": "/yt-frontend-app/static/media/dolls.4e9df2242730773bc3f4.jpg",
+    "static/media/elephant.jpg": "/yt-frontend-app/static/media/elephant.05051fd85466f6de158d.jpg",
+    "index.html": "/yt-frontend-app/index.html",
+    "main.c9fdcd90.css.map": "/yt-frontend-app/static/css/main.c9fdcd90.css.map",
+    "main.d34d25d4.js.map": "/yt-frontend-app/static/js/main.d34d25d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9fdcd90.css",
+    "static/js/main.d34d25d4.js"
+  ]
+}
